@@ -34,11 +34,11 @@ function moveButton() {
 }
 
 const images = [
-    "/ImageTo/cry1.gif",
-    "/ImageTo/cry2.gif",
-    "/ImageTo/cry3.gif",
-    "/ImageTo/cry4.gif",
-    "/ImageTo/cry5.gif"
+    "./ImageTo/cry1.gif",
+    "./ImageTo/cry2.gif",
+    "./ImageTo/cry3.gif",
+    "./ImageTo/cry4.gif",
+    "./ImageTo/cry5.gif"
 ];
 
 const messages = [
@@ -58,7 +58,7 @@ function revealMessage() {
     const image = document.getElementById('please-image');
 
     message.textContent = "Thank you po 🫶";
-    image.src = "/ImageTo/Yey.gif";
+    image.src = "./ImageTo/Yey.gif";
     image.alt = "Yey!";
     yesButton.style.display = "none";
     noButton.style.display = "none";
